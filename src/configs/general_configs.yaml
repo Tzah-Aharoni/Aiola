@@ -1,0 +1,2 @@
+FOLDER_PATH: '/Users/tzahaharoni/Documents/Projects/Python/Exams/Aiola/DataFiles/output/'
+DATABASE_CONN_STR: 'postgresql://postgres:postgres@localhost:5432/postgres'
