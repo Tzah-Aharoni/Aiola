@@ -12,7 +12,7 @@ class Database():
 
 
     def create_engine_obj(database_conn_str: str) -> engine:
-        return create_engine('postgresql://postgres:postgres@localhost:5432/postgres')
+        return create_engine(database_conn_str)
 
 
     def load_df_to_db(df: pd.DataFrame, table_name: str, engine_obj: engine, schema_name: str = 'public') -> None:
